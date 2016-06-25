@@ -1,0 +1,537 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Tory App</title>
+    <link rel="shortcut icon" href="img/ToryLogo/torylogo_w10.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- bxslider -->
+    <link type="text/css" rel='stylesheet' href="js/bxslider/jquery.bxslider.css">
+    <!-- End bxslider -->
+    <!-- flexslider -->
+    <link type="text/css" rel='stylesheet' href="js/flexslider/flexslider.css">
+    <!-- End flexslider -->
+    <!-- bxslider -->
+    <link type="text/css" rel='stylesheet' href="js/radial-progress/style.css">
+    <!-- End bxslider -->
+    <!-- Animate css -->
+    <link type="text/css" rel='stylesheet' href="css/animate.css">
+    <!-- End Animate css -->
+    <!-- Bootstrap css -->
+    <link type="text/css" rel='stylesheet' href="css/bootstrap.min.css">
+    <link type="text/css" rel='stylesheet' href="js/bootstrap-progressbar/bootstrap-progressbar-3.2.0.min.css">
+    <!-- End Bootstrap css -->
+    <!-- Jquery UI css -->
+    <link type="text/css" rel='stylesheet' href="js/jqueryui/jquery-ui.css">
+    <link type="text/css" rel='stylesheet' href="js/jqueryui/jquery-ui.structure.css">
+    <!-- End Jquery UI css -->
+    <!-- Fancybox -->
+    <link type="text/css" rel='stylesheet' href="js/fancybox/jquery.fancybox.css">
+    <!-- End Fancybox -->
+
+    <link type="text/css" rel='stylesheet' href="fonts/fonts.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+    <link type="text/css" data-themecolor="default" rel='stylesheet' href="css/main-default.css">
+
+    <link type="text/css" rel='stylesheet' href="js/rs-plugin/css/settings.css">
+    <link type="text/css" rel='stylesheet' href="js/rs-plugin/css/settings-custom.css">
+    <link type="text/css" rel='stylesheet' href="js/rs-plugin/videojs/video-js.css">
+</head>
+<!--<a href="/" class="b-left b-logo "><img class="color-theme" data-retina src="img/Torylogo/logo_w10.png" alt="Logo" /></a>-->
+<body>
+    <div class="mask-l" style="background-color: #fff; width: 100%; height: 100%; position: fixed; top: 0; left:0; z-index: 9999999;"></div> <!--removed by integration-->
+    <header>
+        <div class="container">
+            <dic class="row">
+                <div class="col-md-12">
+                    <div class="col-md-4 col-md-offset-4">
+                        <a href="/" class="b-left b-logo ">
+                            <img class="color-theme" data-retina src="img/Torylogo/logo_w10.png" style="width: 57px;" alt="Logo" />
+                            <img class="color-theme" src="img/Torylogo/title_gray_22x7.png" style="width: 111px;" />
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <!--<nav class="b-top-nav f-top-nav b-right j-top-nav">
+                            <ul class="b-top-nav__1level_wrap">
+                                <li class="b-top-nav__1level f-top-nav__1level is-active-top-nav__1level f-primary-b">
+                                    <a href="homepage-1-index.html"><i class="fa fa-home b-menu-1level-ico"></i>Home <span class="b-ico-dropdown"><i class="fa fa-arrow-circle-down"></i></span></a>
+                                </li>
+                            </ul>
+                        </nav>-->
+                    </div>
+                </div>
+            </dic>
+        </div>
+        <!--<div class="container b-header__box b-relative">
+            <a href="/" class="b-left b-logo ">
+                <img class="color-theme" data-retina src="img/Torylogo/logo_w10.png" style="width: 57px;" alt="Logo" />
+                <img class="color-theme" src="img/Torylogo/title_gray_22x7.png" style="width: 111px;" />
+            </a>
+            <div class="b-header-r b-right b-header-r--icon">
+                <div class="b-header-ico-group f-header-ico-group b-right">
+                    <span class="b-search-box">
+                        <i class="fa fa-search"></i>
+                        <input type="text" placeholder="Enter your keywords" />
+                    </span>
+                </div>
+                <div class="b-top-nav-show-slide f-top-nav-show-slide b-right j-top-nav-show-slide"><i class="fa fa-align-justify"></i></div>
+                <nav class="b-top-nav f-top-nav b-right j-top-nav">
+                    <ul class="b-top-nav__1level_wrap">
+                        <li class="b-top-nav__1level f-top-nav__1level is-active-top-nav__1level f-primary-b">
+                            <a href="homepage-1-index.html"><i class="fa fa-home b-menu-1level-ico"></i>Home <span class="b-ico-dropdown"><i class="fa fa-arrow-circle-down"></i></span></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>-->
+    </header>
+    <div class="l-main-container">
+        <div class="b-slidercontainer">
+            <div class="b-slider j-fullscreenslider">
+                <ul>
+                    <li data-transition="" data-slotamount="7">
+                        <div class="tp-bannertimer"></div>
+                        <img data-retina src="img/bg/bg-slide.png" ">
+                        <!--<div class="caption lft" data-y="bottom" data-speed="2000" data-start="1300" data-easing="Power4.easeInBack">
+                            <img data-retina src="img/Torylogo/logo_side_w25x6.png" style="width: 30%;">
+                        </div>-->
+                        <div class="caption lft" data-y="bottom" data-speed="1100" data-start="900" data-easing="Power4.easeInBack">
+                            <img data-retina src="img/Torylogo/smartphone.png" style="width: 30%;">
+                        </div>
+                        <div class="caption lft" data-y="bottom" data-speed="1500" data-start="1300" data-easing="Power4.easeInBack">
+                            <img data-retina src="img/Torylogo/perspective-app.png" style="width: 30%;">
+                        </div>
+                        <!--<div class="caption" data-x="180" data-y="bottom" data-voffset="-1" data-speed="2100" data-start="3300" data-easing="easeOutBack">
+                            <img data-retina src="img/slider/slider_shop_1-2.png">
+                        </div>-->
+                        <div class="caption lfr" data-x="400" data-y="50" data-speed="600" data-start="1400">
+                            <div class="b-header-group f-header-group f-header-group--light">
+                                <img data-retina src="img/Torylogo/logo_w10.png" style="width: 90%;">
+                            </div>
+                        </div>
+                        <div class="caption lfb" data-x="400" data-y="340" data-speed="800" data-start="1700">
+                            <p class="f-primary-b f-uppercase f-slider-lg_text-medium c-white">Todo lo que necesitas dentro de una app</p>
+                        </div>
+                        <div class="caption lfb" data-x="400" data-y="370" data-speed="800" data-start="2000">
+                            <p class="f-primary-b f-uppercase f-slider-lg_text-medium c-white">Restaurants, entretenimiento, moda, salud... OFERTAS ;)</p>
+                        </div>
+                        <div class="caption" data-x="400" data-y="410" data-speed="600" data-start="2400">
+                            <p><a class="b-link f-link f-primary-b f-uppercase" href="#">MAS <span><i class="fa fa-chevron-right"></i></span></a></p>
+                        </div>
+                    </li>
+                    <!--<li data-transition="" data-slotamount="7">
+                        <div class="tp-bannertimer"></div>
+                        <img data-retina src="img/slider/slider_shop_1.jpg">
+                        <div class="caption sfb" data-x="30" data-y="bottom" data-speed="700" data-start="1700" data-easing="Power4.easeOut"><img data-retina src="img/slider/slider-shop-2-2.png"></div>
+                        <div class="caption lfr" data-x="400" data-y="100" data-speed="300" data-start="2000">
+                            <div class="b-header-group f-header-group f-header-group--light">
+                                <h2 class="f-legacy-h2 f-primary-l">summer</h2>
+                                <h1 class="f-legacy-h1 f-primary-sb">collections</h1>
+                            </div>
+                        </div>
+                        <div class="caption lfb" data-x="400" data-y="270" data-speed="300" data-start="2300">
+                            <p class="f-primary-b f-uppercase f-slider-lg_text-medium c-white">Lorem ipsum dolor sit amet, consectetur adipis</p>
+                        </div>
+                        <div class="caption lfb" data-x="400" data-y="300" data-speed="300" data-start="2600">
+                            <p class="f-primary-b f-uppercase f-slider-lg_text-medium c-white">Vestibulum scelerisque in enim </p>
+                        </div>
+                        <div class="caption" data-x="400" data-y="340" data-speed="600" data-start="3000">
+                            <p><a class="b-link f-link f-primary-b f-uppercase" href="#">more <span><i class="fa fa-chevron-right"></i></span></a></p>
+                        </div>
+                    </li>-->
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <section class="b-infoblock"  data-animate="fadeInDown">
+        <div class="container">
+            <div class="b-null-bottom-indent b-infoblock-with-icon-group clearfix b-infoblock-with-icon--sm f-infoblock-with-icon--sm b-infoblock-with-icon--colored-bg b-info-container">
+                <h3 class="f-legacy-h3 c-white f-primary-b f-center">¿Qué te ofrece Tory?</h3>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="b-infoblock-with-icon">
+                        <a href="#" class="b-infoblock-with-icon__icon f-infoblock-with-icon__icon fade-in-animate">
+                            <i class="fa fa-location-arrow"></i>
+                        </a>
+                        <div class="b-infoblock-with-icon__info f-infoblock-with-icon__info">
+                            <a href="#" class="f-infoblock-with-icon__info_title b-infoblock-with-icon__info_title f-primary-sb">Facilidad para encontrar lo que buscas</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="b-infoblock-with-icon">
+                        <a href="#" class="b-infoblock-with-icon__icon f-infoblock-with-icon__icon fade-in-animate">
+                            <i class="fa fa-suitcase"></i>
+                        </a>
+                        <div class="b-infoblock-with-icon__info f-infoblock-with-icon__info">
+                            <a href="#" class="f-infoblock-with-icon__info_title b-infoblock-with-icon__info_title f-primary-sb">Cualquier negocio al alcanze de tu mano.</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix visible-sm-block"></div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="b-infoblock-with-icon">
+                        <a href="#" class="b-infoblock-with-icon__icon f-infoblock-with-icon__icon fade-in-animate">
+                            <i class="fa fa-tags"></i>
+                        </a>
+                        <div class="b-infoblock-with-icon__info f-infoblock-with-icon__info">
+                            <a href="#" class="f-infoblock-with-icon__info_title b-infoblock-with-icon__info_title f-primary-sb">Los mejores establecimientos a un tab de distancia.</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix visible-sm-block"></div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="b-infoblock-with-icon">
+                        <a href="#" class="b-infoblock-with-icon__icon f-infoblock-with-icon__icon fade-in-animate">
+                            <i class="fa fa-map-marker"></i>
+                        </a>
+                        <div class="b-infoblock-with-icon__info f-infoblock-with-icon__info">
+                            <a href="#" class="f-infoblock-with-icon__info_title b-infoblock-with-icon__info_title f-primary-sb">Geolocalización.</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="b-infoblock-with-icon">
+                        <a href="#" class="b-infoblock-with-icon__icon f-infoblock-with-icon__icon fade-in-animate">
+                            <i class="fa fa-info"></i>
+                        </a>
+                        <div class="b-infoblock-with-icon__info f-infoblock-with-icon__info">
+                            <a href="#" class="f-infoblock-with-icon__info_title b-infoblock-with-icon__info_title f-primary-sb">Notificaciones en tiempo real.</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="b-infoblock-with-icon">
+                        <a href="#" class="b-infoblock-with-icon__icon f-infoblock-with-icon__icon fade-in-animate">
+                            <i class="fa fa-usd"></i>
+                        </a>
+                        <div class="b-infoblock-with-icon__info f-infoblock-with-icon__info">
+                            <a href="#" class="f-infoblock-with-icon__info_title b-infoblock-with-icon__info_title f-primary-sb">Todo tipo de super ofertas.</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="b-default-top-indent j-data-element" data-animate="fadeInDown">
+                <div class="f-title-big f-primary-l c-primary">Estas listo para interactuar con <span class="f-primary-b c-default">Tory</span> app?</div>
+            </div>
+        </div>
+    </section>
+    <section class="b-infoblock--without-padding b-diagonal-line-bg-light">
+        <div class="container b-img-group-wrap">
+            <div class="row">
+                <div class="b-img-group wrap-img-appearance">
+                    <img data-retina data-animate="fadeInLeft" class="b-img-group-item_1" src="img/animation-data/phone_1.png" alt="" />
+                    <img data-retina data-animate="fadeInLeft" class="b-img-group-item_2" src="img/animation-data/phone_2.png" alt="" />
+                </div>
+                <div class="col-md-5 col-sm-12 col-md-offset-6 col-sm-offset-0 b-infoblock--without-border">
+                    <h2 class="f-legacy-h2 f-primary-l">COMO EMPEZAR?</h2>
+                    <div class="b-list-with-icons">
+                        <div class="b-list-with-icons__item">
+                            <div class="b-list-with-icons__item_icon f-list-with-icons__item_icon f-list-with-icons__item_icon_1 fade-in-animate">
+                                <i class="fa fa-cloud-download"></i>
+                            </div>
+                            <div class="b-list-with-icons__item_text">
+                                <a class="b-list-with-icons__item_title f-list-with-icons__item_title f-primary-b" href="blog_detail_left_slidebar.html">Descarga e instala</a>
+                                <div class="b-list-with-icons__item_desc f-list-with-icons__item_desc">Descarga la aplicación desde tu tienda de aplicaciones: AppStore, PlayStore.</div>
+                            </div>
+                        </div>
+                        <div class="b-list-with-icons__item">
+                            <div class="b-list-with-icons__item_icon f-list-with-icons__item_icon f-list-with-icons__item_icon_2 fade-in-animate">
+                                <i class="fa fa-microphone"></i>
+                            </div>
+                            <div class="b-list-with-icons__item_text">
+                                <a class="f-list-with-icons__item_title  f-primary-b" href="blog_detail_left_slidebar.html">Preguntale a Tory</a>
+                                <div class="b-list-with-icons__item_desc f-list-with-icons__item_desc">¿Qué se te antoja hacer? Preguntale a Tory que promociones disponibles hay y te arrojara un sin fin de establecimientos/lugares con las mejores promociones.</div>
+                            </div>
+                        </div>
+                        <div class="b-list-with-icons__item">
+                            <div class="b-list-with-icons__item_icon f-list-with-icons__item_icon f-list-with-icons__item_icon_3 fade-in-animate">
+                                <i class="fa fa-child"></i>
+                            </div>
+                            <div class="b-list-with-icons__item_text">
+                                <a class="b-list-with-icons__item_title f-list-with-icons__item_title  f-primary-b" href="blog_detail_left_slidebar.html">Disfruta</a>
+                                <div class="b-list-with-icons__item_desc f-list-with-icons__item_desc">Disfruta y sientete satisfecho con Tory, todo tipo de lugares: Entretenimiento, Comida, Moda, Salud... dentro de una sola App</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="b-bg-girl b-infoblock b-benefits-container f-benefits-container">
+        <div class="container f-center">
+            <h2 class="f-legacy-h2 f-primary-l b-benefits_title f-benefits_title">Keep calm and TORY APP</h2>
+        </div>
+    </section>
+    <section class="b-infoblock--without-padding b-diagonal-line-bg-light">
+        <div class="container b-infoblock--without-border b-img-group-wrap b-img-group-wrap--v2">
+            <div class="b-img-group_v2 wrap-img-appearance">
+                <img data-retina data-animate="fadeInLeft" src="img/animation-data/phone_3.png" alt="" />
+            </div>
+            <h2 class="f-legacy-h2 f-center f-primary-l"><span class="f-primary-b">TODO TIPO DE LUGARES</span></h2>
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-1 col-md-5 col-md-offset-0 col-sm-6 col-xs-12 b-infoblock-with-icon-group b-infoblock-with-icon--sides-l f-infoblock-with-icon--sides-l b-infoblock-with-icon--dialog-r">
+                    <div class="col-xs-12">
+                        <div class="b-infoblock-with-icon">
+                            <a href="#" class="b-infoblock-with-icon__icon f-infoblock-with-icon__icon fade-in-animate">
+                                <i class="fa fa-home"></i>
+                            </a>
+                            <div class="b-infoblock-with-icon__info f-infoblock-with-icon__info">
+                                <a href="#" class="f-infoblock-with-icon__info_title b-infoblock-with-icon__info_title f-primary-sb">Restaurantes</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12">
+                        <div class="b-infoblock-with-icon">
+                            <a href="#" class="b-infoblock-with-icon__icon f-infoblock-with-icon__icon fade-in-animate">
+                                <i class="fa fa-glass"></i>
+                            </a>
+                            <div class="b-infoblock-with-icon__info f-infoblock-with-icon__info">
+                                <a href="#" class="f-infoblock-with-icon__info_title b-infoblock-with-icon__info_title f-primary-sb">Bares</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12">
+                        <div class="b-infoblock-with-icon">
+                            <a href="#" class="b-infoblock-with-icon__icon f-infoblock-with-icon__icon fade-in-animate">
+                                <i class="fa fa-magic"></i>
+                            </a>
+                            <div class="b-infoblock-with-icon__info f-infoblock-with-icon__info">
+                                <a href="#" class="f-infoblock-with-icon__info_title b-infoblock-with-icon__info_title f-primary-sb">Barberias</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-offset-2 col-md-5 col-sm-6 col-sm-offset-0 col-xs-12 b-infoblock-with-icon-group b-infoblock-with-icon--sides-r f-infoblock-with-icon--sides-r b-infoblock-with-icon--dialog-l">
+                    <div class="col-xs-12">
+                        <div class="b-infoblock-with-icon">
+                            <a href="#" class="b-infoblock-with-icon__icon f-infoblock-with-icon__icon fade-in-animate">
+                                <i class="fa fa-suitcase"></i>
+                            </a>
+                            <div class="b-infoblock-with-icon__info">
+                                <a href="#" class="f-infoblock-with-icon__info_title b-infoblock-with-icon__info_title f-primary-sb">Salones de belleza</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12">
+                        <div class="b-infoblock-with-icon">
+                            <a href="#" class="b-infoblock-with-icon__icon f-infoblock-with-icon__icon fade-in-animate">
+                                <i class="fa fa-map-marker"></i>
+                            </a>
+                            <div class="b-infoblock-with-icon__info">
+                                <a href="#" class="f-infoblock-with-icon__info_title b-infoblock-with-icon__info_title f-primary-sb">Boutiques</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12">
+                        <div class="b-infoblock-with-icon">
+                            <a href="#" class="b-infoblock-with-icon__icon f-infoblock-with-icon__icon fade-in-animate">
+                                <i class="fa fa-cog"></i>
+                            </a>
+                            <div class="b-infoblock-with-icon__info f-infoblock-with-icon__info">
+                                <a href="#" class="f-infoblock-with-icon__info_title b-infoblock-with-icon__info_title f-primary-sb">SPA'S</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--<img data-retina data-animate="fadeInLeft" style="width: 82%; margin-top: -13%; margin-left: -10%;" src="img/Torylogo/tory_phone.png" alt="" />-->
+    </section>
+
+    <footer style="background: #4c4c4c;">
+        <div class="container">
+            <div class="b-footer-secondary row">
+                <!--<div class="col-md-4 col-sm-12 col-xs-12">
+                    <h4 class="f-primary-b f-legacy-h4" style="color: #fff;">Latest blog posts</h4>
+                    <div class="b-blog-short-post row">
+                        <div class="b-blog-short-post__item col-md-12 col-sm-4 col-xs-12 f-primary-b">
+                            <div class="b-blog-short-post__item_text f-blog-short-post__item_text">
+                                <a href="blog_detail_left_slidebar.html">Amazing post with all the goodies</a>
+                            </div>
+                            <div class="b-blog-short-post__item_date f-blog-short-post__item_date">
+                                March 23, 2013
+                            </div>
+                        </div>
+                    </div>
+                </div>-->
+                <div class="col-md-4 col-sm-12 col-xs-12 col-ms-offset-2">
+                    <h4 class="f-primary-b f-legacy-h4" style="color: #fff;">contacto</h4>
+                    <div class="b-contacts-short-item-group">
+                        <div class="b-contacts-short-item col-md-12 col-sm-4 col-xs-12">
+                            <div class="b-contacts-short-item__icon f-contacts-short-item__icon f-contacts-short-item__icon_lg b-left">
+                                <i class="fa fa-map-marker"></i>
+                            </div>
+                            <div class="b-remaining f-contacts-short-item__text" style="color: #b1b1b1;">
+                                1234 Street Name, City Name,<br />
+                            </div>
+                        </div>
+                        <div class="b-contacts-short-item col-md-12 col-sm-4 col-xs-12">
+                            <div class="b-contacts-short-item__icon f-contacts-short-item__icon b-left f-contacts-short-item__icon_xs">
+                                <i class="fa fa-envelope"></i>
+                            </div>
+                            <div class="b-remaining f-contacts-short-item__text f-contacts-short-item__text_email">
+                                <a  style="color: #b1b1b1;" href="#">Contacto@toryapp.com</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 col-xs-12 f-center b-footer-logo-containter">
+                    <a href="#"><img style="width: 80%;" data-retina class="b-footer-logo color-theme" src="img/Torylogo/logo_side_w25x6.png" /></a>
+                </div>
+                <div class="col-md-4 col-sm-12 col-xs-12 f-center b-footer-logo-containter">
+                    <h4 class="f-primary-b f-legacy-h4" style="color: #fff;">No te pierdas nada de <strong style="color: #ffb600;"> Tory App</strong></h4>
+                     <div class="b-footer-logo-text f-footer-logo-text">
+                        <div class="b-btn-group-hor f-btn-group-hor">
+                            <a href="#" class="b-btn-group-hor__item f-btn-group-hor__item">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                            <a href="#" class="b-btn-group-hor__item f-btn-group-hor__item">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                            <a href="#" class="b-btn-group-hor__item f-btn-group-hor__item">
+                                <i class="fa fa-dribbble"></i>
+                            </a>
+                            <a href="#" class="b-btn-group-hor__item f-btn-group-hor__item">
+                                <i class="fa fa-behance"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/breakpoints.js"></script>
+    <script src="js/jquery/jquery-1.11.1.min.js"></script>
+    <!-- bootstrap -->
+    <script src="js/scrollspy.js"></script>
+    <script src="js/bootstrap-progressbar/bootstrap-progressbar.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- end bootstrap -->
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script src='js/imagesloaded.pkgd.min.js'></script>
+    <!-- bxslider -->
+    <script src="js/bxslider/jquery.bxslider.min.js"></script>
+    <!-- end bxslider -->
+    <!-- flexslider -->
+    <script src="js/flexslider/jquery.flexslider.js"></script>
+    <!-- end flexslider -->
+    <!-- smooth-scroll -->
+    <script src="js/smooth-scroll/SmoothScroll.js"></script>
+    <!-- end smooth-scroll -->
+    <!-- carousel -->
+    <script src="js/jquery.carouFredSel-6.2.1-packed.js"></script>
+    <!-- end carousel -->
+    <script src="js/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+    <script src="js/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="js/rs-plugin/videojs/video.js"></script>
+
+    <!-- jquery ui -->
+    <script src="js/jqueryui/jquery-ui.js"></script>
+    <!-- end jquery ui -->
+    <script type="text/javascript" language="javascript"
+            src="http://maps.google.com/maps/api/js?sensor=false&key=AIzaSyCfVS1-Dv9bQNOIXsQhTSvj7jaDX7Oocvs"></script>
+    <!-- Modules -->
+    <script src="js/modules/sliders.js"></script>
+    <script src="js/modules/ui.js"></script>
+    <script src="js/modules/retina.js"></script>
+    <script src="js/modules/animate-numbers.js"></script>
+    <script src="js/modules/parallax-effect.js"></script>
+    <script src="js/modules/settings.js"></script>
+    <script src="js/modules/maps-google.js"></script>
+    <script src="js/modules/color-themes.js"></script>
+    <!-- End Modules -->
+    <!-- Audio player -->
+    <script type="text/javascript" src="js/audioplayer/js/jquery.jplayer.min.js"></script>
+    <script type="text/javascript" src="js/audioplayer/js/jplayer.playlist.min.js"></script>
+    <script src="js/audioplayer.js"></script>
+    <!-- end Audio player -->
+    <!-- radial Progress -->
+    <script src="js/radial-progress/jquery.easing.1.3.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/d3/3.4.13/d3.min.js"></script>
+    <script src="js/radial-progress/radialProgress.js"></script>
+    <script src="js/progressbars.js"></script>
+    <!-- end Progress -->
+    <!-- Google services -->
+    <script type="text/javascript" src="https://www.google.com/jsapi?autoload={'modules':[{'name':'visualization','version':'1','packages':['corechart']}]}"></script>
+    <script src="js/google-chart.js"></script>
+    <!-- end Google services -->
+    <script src="js/j.placeholder.js"></script>
+
+    <!-- Fancybox -->
+    <script src="js/fancybox/jquery.fancybox.pack.js"></script>
+    <script src="js/fancybox/jquery.mousewheel.pack.js"></script>
+    <script src="js/fancybox/jquery.fancybox.custom.js"></script>
+    <!-- End Fancybox -->
+    <script src="js/user.js"></script>
+    <script src="js/timeline.js"></script>
+    <script src="js/fontawesome-markers.js"></script>
+    <script src="js/markerwithlabel.js"></script>
+    <script src="js/cookie.js"></script>
+    <script src="js/loader.js"></script>
+    <script src="js/scrollIt/scrollIt.min.js"></script>
+    <script src="js/modules/navigation-slide.js"></script>
+    <!--<div class="settings-wrap">
+        <div class="settings-title">
+            <div class="label settings-label"><i class="fa fa-cogs"></i></div>
+            <h3>Style selector</h3>
+        </div>
+        <div class="settings-inner">
+            <div class="settings-box settings-box-hidden">
+                <h3>Layout style</h3>
+                <div class="settings-btn-container">
+                    <div data-settings_layout="off" class="settings-btn active">Wide</div>
+                    <div data-settings_layout="on" class="settings-btn">Boxed</div>
+                </div>
+            </div>
+            <div class="settings-box-hidden settings-box--pattern">
+                <h3>
+                    Boxed Background
+                    Patterns
+                </h3>
+                <ul class="settings-bg">
+                    <li data-bg="img/bg/pattern-lg/pattern_1.png" data-type="pattern"><img width="21" height="21" src="img/bg/pattern_sm/pattern_1.jpg" alt="" /></li>
+                    <li data-bg="img/bg/pattern-lg/pattern_2.png" data-type="pattern"><img width="21" height="21" src="img/bg/pattern_sm/pattern_2.jpg" alt="" /></li>
+                    <li data-bg="img/bg/pattern-lg/pattern_3.png" data-type="pattern"><img width="21" height="21" src="img/bg/pattern_sm/pattern_3.jpg" alt="" /></li>
+                    <li data-bg="img/bg/pattern-lg/pattern_4.png" data-type="pattern"><img width="21" height="21" src="img/bg/pattern_sm/pattern_4.jpg" alt="" /></li>
+                    <li data-bg="img/bg/pattern-lg/pattern_5.png" data-type="pattern"><img width="21" height="21" src="img/bg/pattern_sm/pattern_5.jpg" alt="" /></li>
+                    <li data-bg="img/bg/pattern-lg/pattern_6.png" data-type="pattern"><img width="21" height="21" src="img/bg/pattern_sm/pattern_6.jpg" alt="" /></li>
+                    <li data-bg="img/bg/pattern-lg/pattern_7.png" data-type="pattern"><img width="21" height="21" src="img/bg/pattern_sm/pattern_7.jpg" alt="" /></li>
+                    <li data-bg="img/bg/pattern-lg/pattern_8.png" data-type="pattern"><img width="21" height="21" src="img/bg/pattern_sm/pattern_8.jpg" alt="" /></li>
+                    <li data-bg="img/bg/pattern-lg/pattern_9.png" data-type="pattern"><img width="21" height="21" src="img/bg/pattern_sm/pattern_9.jpg" alt="" /></li>
+                    <li data-bg="img/bg/pattern-lg/pattern_10.png" data-type="pattern"><img width="21" height="21" src="img/bg/pattern_sm/pattern_10.jpg" alt="" /></li>
+                </ul>
+            </div>
+            <div class="settings-box-hidden settings-box--img">
+                <h3>
+                    Boxed Background
+                    Images
+                </h3>
+                <ul class="settings-bg">
+                    <li data-bg="img/bg/bg_lg/1.jpg" data-type="img"><img width="21" height="21" src="img/bg/bg_sm/bg_1.jpg" alt="" /></li>
+                    <li data-bg="img/bg/bg_lg/2.jpg" data-type="img"><img width="21" height="21" src="img/bg/bg_sm/bg_2.jpg" alt="" /></li>
+                    <li data-bg="img/bg/bg_lg/3.jpg" data-type="img"><img width="21" height="21" src="img/bg/bg_sm/bg_3.jpg" alt="" /></li>
+                    <li data-bg="img/bg/bg_lg/4.jpg" data-type="img"><img width="21" height="21" src="img/bg/bg_sm/bg_4.jpg" alt="" /></li>
+                    <li data-bg="img/bg/bg_lg/5.jpg" data-type="img"><img width="21" height="21" src="img/bg/bg_sm/bg_5.jpg" alt="" /></li>
+                </ul>
+            </div>
+            <div class="settings-box--color">
+                <h3>Color Scheme</h3>
+                <ul class="color-themes">
+                    <li data-color="default" class="default-color is-active"></li>
+                    <li data-color="cyan" class="cyan-color"></li>
+                    <li data-color="blue" class="blue-color"></li>
+                    <li data-color="green" class="green-color"></li>
+                    <li data-color="red" class="red-color"></li>
+                    <li data-color="yellow" class="yellow-color"></li>
+                </ul>
+            </div>
+            <span data-reset class="settings-reset">Reset styles</span>
+        </div>
+    </div>-->
+
+</body>
+</html>
